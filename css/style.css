@@ -1,0 +1,305 @@
+@font-face {
+  font-family: Metropolis-Bold;
+  src: url(../font/Metropolis-Bold.otf);
+}
+@font-face {
+  font-family: Metropolis-Medium;
+  src: url(../font/Metropolis-Medium.otf);
+}
+:root {
+  --secound-color: #8989a2;
+  --main-color: #722ed1;
+}
+.main-nav .nav-item .nav-link {
+  color: #000;
+}
+.get-start {
+  border-radius: 1rem;
+}
+.get-start:hover {
+  transform: translatex(-10px);
+  border: 1px solid #722ed1;
+}
+.nav-item {
+  padding-right: 1rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.button-start {
+  background-color: var(--main-color);
+  border-radius: 50px;
+  color: white;
+}
+.button-learn {
+  border-radius: 50px;
+  color: black;
+  background-color: white;
+}
+.header {
+  height: 100vh;
+  background-image: url(/img/cover.png);
+  width: 100%;
+  background-size: cover;
+}
+.link {
+  background-color: #f9f0ff;
+  
+  padding: 0.5em;
+  width: 50%;
+}
+.quation {
+  border: none;
+}
+.card {
+  border: none;
+}
+.data-icon {
+  background-color: #f6ffed;
+  border-radius: 50%;
+  padding: 1rem;
+}
+.power-icon {
+  background-color: #fff1f0;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.business-icon {
+  background-color: #e6f7ff;
+  border-radius: 50%;
+  padding: 1rem;
+}
+.business-explain {
+  line-height: 2;
+}
+.prouduct-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+}
+.engeneer-img {
+  width: 100%;
+  height: 100%;
+}
+.main-profile {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  justify-content: center;
+}
+.form-signUp {
+  width: 60%;
+  margin-left: auto;
+  padding: 1em;
+  text-align: center;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 7px 24px 28px 2px #9b94a0;
+}
+.photo-form {
+  width: 100%;
+}
+.btn-sign-up {
+  background-color: #722ed1;
+}
+
+.for-engineering {
+  text-decoration: none;
+}
+.water-mark {
+  display: flex;
+  justify-content: center;
+}
+.explain-footer {
+  text-align: justify;
+  font-family: Metropolis-Medium;
+  font-size: 0.7em;
+}
+.fa-facebook-square {
+  color: #3b5998;
+}
+.fa-twitter {
+  color: white;
+  background-color: #00acee;
+  border-radius: 50%;
+  padding: 0.1em;
+}
+.fa-instagram {
+  color: #db3773;
+}
+.your-data {
+  font-family: Metropolis-Bold;
+  font-size: 2em;
+}
+.explain {
+  font-family: Metropolis-Medium;
+  font-size: 1em;
+  color: var(--secound-color);
+}
+.card-title {
+  font-family: Metropolis-Bold;
+  font-size: 2em;
+}
+.explain-card {
+  font-family: Metropolis-Medium;
+  font-size: 1em;
+  color: var(--secound-color);
+}
+.card-text {
+  font-family: Metropolis-Bold;
+  font-size: 2em;
+}
+.card-subtitle {
+  font-family: Metropolis-Medium;
+  font-size: 1em;
+}
+.prouduct-team {
+  font-family: Metropolis-Medium;
+  color: var(--main-color);
+}
+.why-qubly {
+  text-decoration: none;
+  font-family: Metropolis-Medium;
+  color: var(--main-color);
+}
+.qubly{
+  background-color: #f9f0ff;
+  border-radius: 30%;
+  padding:4px 0px;
+  width: 20%;
+  margin: auto;
+
+}
+.link-learn {
+  font-family: Metropolis-Medium;
+  color: var(--main-color);
+}
+.lunch {
+  font-family: Metropolis-Bold;
+  font-size: 2em;
+}
+.explain-electronic {
+  font-family: Metropolis-Medium;
+  font-size: 1em;
+  color: var(--secound-color);
+}
+.for-engineering {
+  font-family: Metropolis-Medium;
+  color: var(--main-color);
+}
+.data-driven {
+  font-family: Metropolis-Bold;
+  font-size: 2em;
+}
+.explain-data {
+  font-family: Metropolis-Medium;
+  font-size: 1em;
+  color: var(--secound-color);
+}
+.explain-profile {
+  font-family: Metropolis-Medium;
+  font-size: 1em;
+}
+.explain-form {
+  font-family: Metropolis-Bold;
+  font-size: 2em;
+}
+.product {
+  font-family: Metropolis-Bold;
+}
+.developer {
+  font-family: Metropolis-Bold;
+}
+.company-word {
+  font-family: Metropolis-Bold;
+}
+.job {
+  font-family: Metropolis-Medium;
+}
+.develop-item {
+  font-family: Metropolis-Medium;
+}
+.footer-product {
+  font-family: Metropolis-Medium;
+}
+.support-word {
+  font-family: Metropolis-Bold;
+}
+.about-support {
+  font-family: Metropolis-Medium;
+}
+.nwesletter-word {
+  font-family: Metropolis-Bold;
+}
+.last-word {
+  font-family: Metropolis-Bold;
+}
+.img-google {
+  width: 7%;
+}
+.quation-login {
+  font-family: Metropolis-Medium;
+  color: var(--secound-color);
+  font-size: 0.4em;
+}
+.login {
+  font-size: 0.4em;
+}
+.carosal-icon{
+  color: black;
+}
+.menu-buton{
+  border: 1px solid black;
+}
+.img-profile{
+width: 5%;
+}
+.carousel-indicators [data-bs-target]{
+background-color: black;
+}
+.photos{
+  display: flex;
+  justify-content: space-around;
+}
+.prousuct-icon{
+  background-color: #f9f0ff;
+  border-radius: 30%;
+  padding:4px 0px;
+  width: 50%;
+  text-align: center;
+
+}
+.engeneer{
+  background-color: #f9f0ff;
+  border-radius: 30%;
+  padding:4px 0px;
+  width: 50%;
+  text-align: center;
+}
+.accordion-button:not(.collapsed){
+  background-color: #722ed1;
+  color: white;
+}
+
+
